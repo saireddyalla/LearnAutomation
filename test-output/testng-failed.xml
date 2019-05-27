@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [facebook login ]">
+  <test thread-count="5" name=" login test(failed)">
+    <classes>
+      <class name="DDT.Facebook">
+        <methods>
+          <include name="loginToFacebook" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- DDT.Facebook -->
+    </classes>
+  </test> <!--  login test(failed) -->
+</suite> <!-- Failed suite [facebook login ] -->
