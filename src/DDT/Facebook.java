@@ -32,7 +32,7 @@ public class Facebook {
 		Thread.sleep(3000);
 		Assert.assertTrue(driver.getTitle().contains("Facebook"),"user is not able to login - invalid credentails");
 		System.out.println("page title verified-user is  able to login - valid credentails");
-		driver.quit();
+		driver.close();
 	}
 	
     @DataProvider
